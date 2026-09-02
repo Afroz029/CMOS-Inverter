@@ -1,40 +1,39 @@
-# CMOS Inverter — LTspice Simulation
+# Buck Converter
 
-This project demonstrates the design and simulation of a **CMOS inverter** using **LTspice**.
+A Buck Converter is a DC-DC power electronic converter used to step down
+a higher DC voltage to a lower DC voltage.
 
-## 🧠 Overview
+## Project Overview
 
-This project includes:
+This project focuses on the design and simulation of a Buck Converter.
+The converter uses a switching device and PWM control to regulate the
+output voltage.
 
-- Schematic design of a CMOS inverter using PMOS and NMOS transistors.
-- DC transfer and transient analysis using LTspice.
-- Evaluation of key performance metrics like noise margin and switching behavior.
+## Key Features
 
----
+- DC voltage step-down conversion
+- PWM-based switching control
+- Adjustable duty cycle
+- Output voltage and current analysis
+- Simulation and waveform analysis
+- Study of converter efficiency
 
-## 📌 Key Highlights
+## Basic Principle
 
-- **✅ Schematic Design**  
-  Designed a CMOS inverter using PMOS and NMOS transistors to explore basic digital switching behavior.
+For an ideal Buck Converter:
 
-- **✅ DC Transfer Analysis**  
-  Performed a DC sweep to observe the **Vout vs Vin** characteristics and determine the switching threshold and noise margins.
+Vout = D × Vin
 
-- **✅ Transient Simulation**  
-  Simulated time-domain response to verify logic inversion, output transitions, and signal integrity.
+where:
+- Vin = Input voltage
+- Vout = Output voltage
+- D = Duty cycle
 
-This project reinforces concepts of **digital logic design**, **CMOS operation**, and **signal behavior** in time and voltage domains.
+## Applications
 
----
-
-## 🧰 Tools Used
-
-- **LTspice** for schematic capture and simulation
-
----
-
-## 📁 Files
-
-- **schematic/** – LTspice `.asc` file (CMOS inverter)
-- **waveforms/** – Exported plots and waveform images
-
+- DC power supplies
+- Battery-powered systems
+- Embedded systems
+- Electric vehicles
+- Renewable energy systems
+- Voltage regulation
